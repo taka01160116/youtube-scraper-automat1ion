@@ -1,0 +1,13 @@
+name: CI/CD YouTube Scraper
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy placeholder
+        run: echo "後ほど本番のデプロイ処理をここに書きます"
